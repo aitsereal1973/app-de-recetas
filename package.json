@@ -1,0 +1,22 @@
+{
+  "name": "app-de-recetas",
+  "version": "1.0.0",
+  "description": "Una aplicación para compartir y descubrir recetas.",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~48.0.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "~0.71.0",
+    "firebase": "^9.0.0"
+  },
+  "devDependencies": {},
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
