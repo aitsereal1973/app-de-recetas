@@ -2,6 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 import { getAnalytics } from 'firebase/analytics';
+import { getPerformance } from 'firebase/performance';
 
 // Firebase configuration object
 const firebaseConfig = {
@@ -21,6 +22,8 @@ const auth = getAuth(app);
 const db = getFirestore(app);
 // Initialize Firebase Analytics
 const analytics = getAnalytics(app);
+// Initialize Firebase Performance Monitoring
+const performance = getPerformance(app);
 
 export default app;
-export { auth, db };
+export { auth, db, performance };
