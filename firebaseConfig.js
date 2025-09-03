@@ -26,4 +26,4 @@ const analytics = getAnalytics(app);
 const performance = getPerformance(app);
 
 export default app;
-export { auth, db, performance };
+export { auth, db, analytics, performance };
