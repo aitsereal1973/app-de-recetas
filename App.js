@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Welcome to Your Exciting Recipe Adventure!</Text>
+      <Text>Welcome to Your Exciting Culinary Journey!</Text>
     </View>
   );
 };
